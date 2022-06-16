@@ -14,7 +14,7 @@ func (copy Square) End() Point {
 }
 
 func (copy Square) Area() uint {
-	return copy.a ^ 2
+	return copy.a * copy.a
 }
 
 func (copy Square) Perimeter() uint {
